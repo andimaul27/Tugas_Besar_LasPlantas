@@ -1,0 +1,52 @@
+body {
+    background-image: url('assets/gambar/bg.png'); 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    /* Ganti dengan nama gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  select, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
