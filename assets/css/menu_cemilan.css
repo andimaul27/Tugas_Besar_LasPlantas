@@ -110,7 +110,6 @@ header p {
     font-size: 48px;
     text-align: center;
     text-shadow: 0px 0px 14px #F2F2F2;
-    display: inline-block;
 }
 
 .judul2 {
@@ -232,26 +231,6 @@ img {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 2rem;
-}
-
-.card-header {
-    width: 113px;
-    height: 106.353px;
-    border-radius: 14px;
-    background: #FFF;
-    box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.50);
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.card-header img {
-    width: 113px;
-    height: 95.718px;
-    border-radius: 14px;
-}
-
-.text-header {
-    display: inline-block;
 }
 
 .menu-item img {
