@@ -30,6 +30,13 @@ header svg {
     display: inline-block;
 }
 
+.keranjang {
+    display: inline-block;
+    position: fixed;
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+
 header p {
     color: #000;
     display: inline-block;
@@ -169,6 +176,85 @@ img {
     max-width: 100%;
 }
 
+.navbar-menu {
+    width: 335px;
+    height: 139px;
+    border-radius: 21px;
+    background: #FFF;
+    box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:20px;
+    padding-left:10px;
+    padding-bottom: 60px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 23px;
+}
+ 
+.menu {
+    width: 85px;
+    height: 80px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 14px;
+}
+
+.menu p {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.gambar-menu img{
+    width: 85px;
+    height: 72px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px 0px rgba(242, 242, 242, 0.25);
+    background-image: url('/assets/gambar/Kategori/coffe-removebg-preview.png');
+}
+
+.text-menu {
+    font-family: 'questrial-regular', sans-serif;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.menu-unggulan {
+    width: 312px;
+    height: 146px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.50);
+    margin-left: 37px;
+    margin-bottom: 20px;
+}
+
+.unggulan img {
+    width: 312px;
+    height: 146px;
+    border-radius: 14px;
+}
+
+.btn-kembali {
+    width: 88px;
+    height: 36px;
+    border-radius: 14px;
+    background: #34FF85;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-top: 7px;
+    text-align: center;
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
 .form {
     width: 345px;
     height: 253px;
@@ -206,6 +292,82 @@ input[type="text"] {
     box-shadow: 0px 0px 4px 0px #F2F2F2;
   }
 
+.minuman {
+    width: 225px;
+    height: 47px;
+    text-align: center;
+    text-shadow: 0px 0px 5px #F2F2F2;
+    font-size: 36px;
+    margin-left: 83px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.minuman-row {
+    display: inline-block;
+}
+
+.item-card {
+    width: 151px;
+    height: 233.250px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 19px 0px #B6BEC0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 29px;
+    margin-bottom: 20px;
+}
+
+.isi-card img {
+    width: 151px;
+    height: 131.546px;
+    border-radius: 14px;
+}
+
+.judul-menu {
+    width: 123px;
+    height: 27px;
+    text-align: center;
+    font-size: 31px;
+    margin-left: 13px;    
+}
+
+.ket {
+    font-family: 'questrial-regular', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.harga {
+    width: 103px;
+    height: 27px;
+    font-size: 31px;
+    font-weight: 400;
+    margin-left: 27px;
+    margin-top: 5px;
+
+}
+
+.btn-tambah {
+    width: 88px;
+    height: 36px;
+    border-radius: 14px;
+    background: #34FF85;
+    box-shadow: 0px 0px 15px 0px #F2F2F2;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-top: 8px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
 footer {
     background-color: #34FF85;
     color: black;
@@ -213,7 +375,7 @@ footer {
     padding: 12px;
     text-transform: uppercase;
     font-weight: 500;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .footer {
@@ -239,11 +401,6 @@ footer {
     
     .menu-item {
         flex-basis: 45%;
-    }
-
-    img {
-        margin-top: 90px;
-        height: 300px;
     }
     
     .header {
