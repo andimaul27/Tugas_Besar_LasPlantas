@@ -37,6 +37,67 @@ header svg {
     margin-bottom: 50px;
 }
 
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.popup {
+    width: 360px;
+    height: 422px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.header-popup {
+    width: 360px;
+    height: 25px;
+    background: #34FF85;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 14px 14px 0 0;
+}
+  
+.text-popup {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.icon-popup {
+    padding: 30px 0 20px 0;
+    margin-left: 150px;
+}
+
+.close-button {
+    width: 122.132px;
+    height: 44px;
+    border-radius: 14px;
+    background-color: #34FF85;
+    border: none;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 0px 0px 11px 0px rgba(255, 255, 255, 0.00);
+    text-align: center;
+    margin-left: 120px;
+}
+
 header p {
     color: #000;
     display: inline-block;
@@ -328,7 +389,7 @@ input[type="text"] {
     width: 123px;
     height: 27px;
     text-align: center;
-    font-size: 31px;
+    font-size: 22px;
     margin-left: 13px;    
 }
 
