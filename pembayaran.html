@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/pembayaran.css">
+    <title>LAS PLANTAS | MAKANAN</title>
+</head>
+<body>
+    <header>
+      <div class="card-header">
+        <img src="assets/gambar/icon dompet.svg" alt="" style="width: 120px;  height: 120px; border-radius: 14px; display: inline-block; margin-right: 30px;">
+        <p>tunai</p>
+      </div>
+      <div class="text-header">
+        <p class="judul">Las plantas</p>
+        <p class="judul2">COFF EE AN D RESTAURANT</p>
+      </div>
+      
+    </header>
+
+    <div class="pembayaran-card">
+        <div class="judul-card"><p style="text-align: center; padding: 30px;">pesanan sedang di proses</p>
+            <p style="font-size: 20px; display: block; margin-left: 20px; margin-bottom: 20px;">menu yang di pesan :</p>
+            <div class="pesanan1">
+                <P class="pesanan">COFFE LATTE</p>
+                <P class="qty">X1</P>
+                <P class="harga1">RP. 25.000</P>
+            </div>
+            
+            <div class="pesanan1">
+                <P class="pesanan">mie sambal bakar pedas</p>
+                <P class="qty" style="margin-left: -65px;">X1</P>
+                <P class="harga1">RP. 20.000</P>
+            </div>
+
+            <div class="pesanan1">
+                <P class="pesanan">martabak pisang coklat</p>
+                <P class="qty" style="margin-left: -65px;">X1</P>
+                <P class="harga1">RP. 35.000</P>
+            </div>
+            <div class="garis"></div>
+            <div class="total">
+                <P class="total1">total pembayaran</p>
+                <P class="total2">RP. 80.000</P>
+            </div>
+            <div class="text-footer">mohon tunggu di meja yang telah anda pilih</div>
+            <div class="text-footer1">terimakasih telah berkunjung</div>
+        </div>
+    </div>
+    
+    <footer>
+    copyright © 2023 kelompok 1
+    </footer>
+
+  <div class="overlay"></div>
+    <div class="popup">
+      <div class="popup-content">
+        <div class="header-popup">Informasi !</div>
+          <div class="text-popup">pesanan anda telah disimpan</div>
+            <div class="icon-popup">
+              <svg xmlns="http://www.w3.org/2000/svg" width="69" height="91" viewBox="0 0 69 91" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M62.5592 0.0402832C46.8233 20.2273 32.963 42.8536 23.9871 63.2108C16.0585 56.0177 11.4026 53.6155 4.96817 51.4971L0.00244141 59.2913C11.4239 67.1254 17.8728 78.1614 20.9395 90.0542C24.9983 90.0369 29.0571 90.0191 33.1158 90.0014C38.9999 55.4733 54.7173 28.515 68.9558 4.52639L62.5592 0.0402832Z" fill="#2CEB4B"/>
+              </svg>
+            </div>
+        <button class="close-button">selanjutnya</button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const itemCards = document.querySelectorAll(".item-card");
+    const overlay = document.querySelector(".overlay");
+    const popup = document.querySelector(".popup");
+    const closeButton = document.querySelector(".close-button");
+
+    itemCards.forEach(itemCard => {
+      itemCard.addEventListener("click", function() {
+        overlay.style.display = "block";
+        popup.style.display = "block";
+      });
+    });
+
+    closeButton.addEventListener("click", function() {
+      overlay.style.display = "none";
+      popup.style.display = "none";
+    });
+
+    overlay.addEventListener("click", function() {
+      overlay.style.display = "none";
+      popup.style.display = "none";
+    });
+  });
+</script>
+
+    
+</body>
+</html> 
