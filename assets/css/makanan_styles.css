@@ -245,9 +245,9 @@ img {
 }
 
 .card-header img {
-    width: 113px;
-    height: 95.718px;
     border-radius: 14px;
+    width: auto;
+    height: auto;
 }
 
 .text-header {
@@ -411,15 +411,16 @@ input[type="text"] {
     width: 123px;
     height: 27px;
     text-align: center;
-    font-size: 22px;
-    margin-left: 13px;    
+    font-size: 20px;
+    margin-left: 13px;
+    margin-bottom: 20px;    
 }
 
 .ket {
     font-family: 'questrial-regular', sans-serif;
     text-align: center;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1px;
     margin-top: 5px;
 }
 
@@ -428,7 +429,7 @@ input[type="text"] {
     height: 27px;
     font-size: 31px;
     font-weight: 400;
-    margin-left: 27px;
+    margin-left: 25px;
     margin-top: 5px;
 
 }
