@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/menu_cemilan.css">
+    <title>LAS PLANTAS | CEMILAN</title>
+    <link href="https://www.dafontfree.net/embed/cXVlc3RyaWFsLXJlZ3VsYXImZGF0YS8yMS9xLzEwMDIwNy9RdWVzdHJpYWwtUmVndWxhci50dGY" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+      <div class="card-header">
+        <img src="assets/gambar/kategori cemilan/risolmoza.png" alt="">
+      </div>
+      <div class="text-header">
+        <p class="judul">Las plantas</p>
+        <p class="judul2">COFFEE AN D RESTAURANT</p>
+      </div>
+      
+    </header>
+
+    <div class="minuman">Daftar cemilan</div>
+
+    <div class="minuman-row">
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/martabakasin.png" alt="">
+          <p class="judul-menu">martabak asin</p>
+          <p class="harga">rp. 25.000</p>
+        </div>
+      </div>
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/risolmoza.png" alt="">
+          <p class="judul-menu">risol mozarella</p>
+          <p class="harga">rp. 30.000</p>
+        </div>
+      </div>
+    </div>
+    <div class="minuman-row">
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/mendoantmpe.png" alt="">
+          <p class="judul-menu">mendoan tempe</p>
+          <p class="harga">rp. 5.000</p>
+        </div>
+      </div>
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/martabakpisang.png" alt="">
+          <p class="judul-menu">martabak pisang coklat</p>
+          <p class="harga">rp. 35.000</p>
+        </div>
+      </div>
+    </div>
+    <div class="minuman-row">
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/manisamkolangkaling.png" alt="">
+          <p class="judul-menu">manisan kolang kaling</p>
+          <p class="harga">rp. 25.000</p>
+        </div>
+      </div>
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/kueputu.png" alt="">
+          <p class="judul-menu">kue putu</p>
+          <p class="harga">rp. 20.000</p>
+        </div>
+      </div>
+    </div>
+    <div class="minuman-row">
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/puddingmangga.png" alt="">
+          <p class="judul-menu">pudding mangga</p>
+          <p class="harga">rp. 35.000</p>
+        </div>
+      </div>
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/icolemtea.png" alt="">
+          <p class="judul-menu" >pisang keju</p>
+          <p class="harga">rp. 25.000</p>
+        </div>
+      </div>
+    </div>
+    <div class="minuman-row">
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/singkongrebus.png" alt="">
+          <p class="judul-menu" >singkong rebus</p>
+          <p class="harga">rp. 25.000</p>
+        </div>
+      </div>
+    </div>
+    <div class="minuman-row">
+      <div class="item-card">
+        <div class="isi-card">
+          <img src="assets/gambar/kategori cemilan/kacangrebus.png" alt="">
+          <p class="judul-menu">kacang rebus</p>
+          <p class="harga">rp. 35.000</p>
+        </div>
+      </div>
+    </div>
+    <a href="halaman menu notif.html"><div class="btn-tambah">tambahan</div></a>
+    
+    <footer>
+    copyright © 2023 kelompok 1
+    </footer>
+
+  <div class="overlay"></div>
+    <div class="popup">
+      <div class="popup-content">
+        <div class="header-popup">Informasi !</div>
+          <div class="text-popup">pesanan anda telah disimpan</div>
+            <div class="icon-popup">
+              <svg xmlns="http://www.w3.org/2000/svg" width="69" height="91" viewBox="0 0 69 91" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M62.5592 0.0402832C46.8233 20.2273 32.963 42.8536 23.9871 63.2108C16.0585 56.0177 11.4026 53.6155 4.96817 51.4971L0.00244141 59.2913C11.4239 67.1254 17.8728 78.1614 20.9395 90.0542C24.9983 90.0369 29.0571 90.0191 33.1158 90.0014C38.9999 55.4733 54.7173 28.515 68.9558 4.52639L62.5592 0.0402832Z" fill="#2CEB4B"/>
+              </svg>
+            </div>
+        <button class="close-button">selanjutnya</button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const itemCards = document.querySelectorAll(".item-card");
+    const overlay = document.querySelector(".overlay");
+    const popup = document.querySelector(".popup");
+    const closeButton = document.querySelector(".close-button");
+
+    itemCards.forEach(itemCard => {
+      itemCard.addEventListener("click", function() {
+        overlay.style.display = "block";
+        popup.style.display = "block";
+      });
+    });
+
+    closeButton.addEventListener("click", function() {
+      overlay.style.display = "none";
+      popup.style.display = "none";
+    });
+
+    overlay.addEventListener("click", function() {
+      overlay.style.display = "none";
+      popup.style.display = "none";
+    });
+  });
+</script>
+
+    
+</body>
+</html> 
